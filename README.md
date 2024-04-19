@@ -11,4 +11,4 @@ Each type of bet has its own payout multiplier:
 - Row bets, Number range bets: 3x winnings
 - Single number bets: 36x winnings
 
-The roulette wheel spins for 30 seconds, during which players can place their bets. The wheel then gives out results, and payouts are calculated based on the type of bet placed and the outcome of the spin.
+The roulette wheel spins for 10 seconds . The wheel then gives out results, and payouts are calculated based on the type of bet placed and the outcome of the spin.
