@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Pop Culture Roulette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="set"></div>
+    <div class="container">
+        <h1>Japanese Pop Culture Roulette</h1>
+        <div class="bet-container">
+            <label for="bet-type">Bet Type:</label>
+            <select id="bet-type">
+                <option value="number" onclick="og()">Number</option>
+                <option value="even" onclick="enable()" >Even</option>
+                <option value="odd" onclick="enable()">Odd</option>
+                <option value="red" onclick="enable()">Red</option>
+                <option value="black" onclick="enable()">Black</option>
+                <option value="row" onclick="disable()">Row</option>
+                <option value="column" onclick="disable()">Column</option>
+            </select>
+            <input type="tel" id="bet-number" placeholder="Enter bet number/row/col" min="1" max="36">
+            <input type="tel" id="bet-amount" placeholder="Enter bet amount" min="1">
+            <button id="spin-button">Spin Roulette</button>
+            <div class="pcontainer">
+                <p id="para">v 0.6</p>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Shamoil Tinwala, Joel Fernandes. All rights reserved.</p>
+    </footer>
+  <script src="checkVals.js"></script>
+  <script src="firs3.js"></script>
+</body>
+</html>
